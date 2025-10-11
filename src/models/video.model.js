@@ -39,6 +39,6 @@ const videoSchema = new Schema({
 
 },{timestamps:true});
 
-videoSchema.plugin(mongooseAggregatePaginate);
+videoSchema.plugin(mongooseAggregatePaginate); // this plugin allows you to easily do page by page results
 
 export const Video = mongoose.model('Video', videoSchema);
