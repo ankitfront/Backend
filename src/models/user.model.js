@@ -29,7 +29,8 @@ const userSchema = new Schema({
     avatar:{
         type:String,
         required:true,
-    },coverImage:{
+    },
+    coverImage:{
         type:String,//cloudinary url
     },
     watchHistory:[{ // it is an array because we store multiple videos
